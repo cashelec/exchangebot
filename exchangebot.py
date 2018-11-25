@@ -20,7 +20,7 @@ def main():
         for r in res:
             msg.append(r['marketName'] + " " + str(r['price']) + "\n")
         bot.sendMessage(chat_id='@rasklaadtest', text="".join(msg))
-        time.sleep(10)
+        time.sleep(3600)
 
 
 
