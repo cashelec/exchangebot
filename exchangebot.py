@@ -19,7 +19,7 @@ def main():
         res = response.json()
         for r in res:
             msg.append(r['marketName'] + " " + str(r['price']) + "\n")
-        bot.sendMessage(chat_id='@test123', text="".join(msg))
+        bot.sendMessage(chat_id='@rasklaadtest', text="".join(msg))
         time.sleep(10)
 
 
